@@ -1,4 +1,5 @@
 @media (max-width:480px){
+    
     .container{
         gap: 3rem;
     }
@@ -44,6 +45,7 @@
         align-items: center;
         font-weight: 700;
         margin-top: -10px;
+        display: block;
     }
       .offcanvas-body .color{
         border-bottom: 1px solid var(--White-Primary);
@@ -117,6 +119,12 @@
 }
 
 @media (min-width:481px) and (max-width:768px){
+    .offcanvas-body h6{
+        align-items: center;
+        font-weight: 700;
+        margin-top: -10px;
+        display: block;
+    }
     .container{
         gap: 1rem;
     }
